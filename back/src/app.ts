@@ -4,7 +4,7 @@ import mqtt from 'mqtt'
 import mosca from 'mosca';
 import router from '../routes/routes';
 
-export const myIp = '192.168.100.7';
+export const myIp = '107.22.6.114';
 const app = express();
 
 app.use(express.json());
